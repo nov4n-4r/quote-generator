@@ -1,0 +1,30 @@
+#wrapper{
+
+}
+
+#quote-box{
+	width: 400px;
+	padding: 10px;
+	border:1px solid lightgrey;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 10px 10px 8px grey;
+}
+#author{
+	font-weight: bold;
+}
+
+.d-flex{
+	display: flex;
+	gap: 20px;
+}.align-self-end{
+	align-self: flex-end; 
+}
+
+.flex-row{
+	flex-flow: row;
+	justify-content: space-between;
+}
+.flex-column{
+	flex-flow: column;
+}
